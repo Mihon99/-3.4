@@ -10,7 +10,7 @@ int[] Array(int[] array)
 {
 for (int i = 0; i < n; i++)
 {
-    int number = new Random().Next(min, max);
+    int number = new Random().Next(min, max + 1);
     array[i] = number;
 }
 return array;
